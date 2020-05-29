@@ -129,8 +129,15 @@ function makePersonObject(I,N,E) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(/* code here */) {
-  /* code here */
+
+const person = {
+  id: 12,
+  name: "Tyler",
+  email: "TylerOliverTaylor@gmail.com",
+};
+
+function getName(N) {
+  console.log(person.name)
 }
 
 
