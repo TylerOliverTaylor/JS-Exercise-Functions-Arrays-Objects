@@ -179,19 +179,18 @@ function getName(N) {
  * passing in [ 'orange', 'apple', 'banana', 'apples', 'apple', 'mango' ] as the argument,
  * the returned value should be: [ false, true, false, false, true, false ].
 */
-// const fruits =[ 'orange', 'apple', 'banana', 'apples', 'apple', 'mango' ]
+const sam =[ 'orange', 'apple', 'banana', 'apples', 'apple', 'mango' ]
 
-function isItAnApple(fruits) {
-  for (let i=0; i < 5; i++){
-    if (fruits[i].length == 5);{
-      console.log("True");
+function isItAnApple(sam) {
+  for(let i=0; i < sam.length; i++){
+    let name = sam[i];
+    if (name === `apple`){
+      console.log(true);
+    } else { 
+      console.log(false);
     }
-    else{
-      console.log("False")
-    }
-    }  
   }
-
+}
 
 
 
